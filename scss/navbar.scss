@@ -1,0 +1,26 @@
+$slate-color: #7F94A2;
+
+// Main Navbar
+#main-navigation-bar {
+    border-bottom: solid #7F94A4 1px;
+
+    #inner-nav-container {
+        margin: 1em 0 1em 0;
+    }
+}
+
+// Navbar Logo
+#beechwood-logo-anchor {
+    margin-top: -0.4em;
+    
+    #beechwood-logo {
+        height: 2em;
+    }
+}   
+
+// Nav Icons
+.nav-icons {
+    // height: 2em;
+    color: $slate-color;
+    font-size: 20px;
+}

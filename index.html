@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Beechwood Memorial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="dist/css/main.css" />
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav id="main-navigation-bar" class="navbar">
+        <div id="inner-nav-container" class="container-fluid">
+            <div class="navbar-header">
+                <a id="beechwood-logo-anchor" class="navbar-brand" href="#"><img id="beechwood-logo" src="images/beechwood-logo.svg"></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#">Find Care</a></li>
+                <li><a href="#">Pay a Bill</a></li>
+                <li><a href="#">Patients and Visitors</a></li>
+                <li><a href="#">Career Opportunities</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" data-toggle="modal" data-target="#searchModal"><span class="glyphicon glyphicon-home nav-icons" aria-hidden="true"></span></a></li>
+                <li><a href="#" data-toggle="modal" data-target="#contactModal"><span class="glyphicon glyphicon-earphone nav-icons" aria-hidden="true"></span></a></li>
+                <li><a href="#" data-toggle="modal" data-target="#profileModal"><span class="glyphicon glyphicon-user nav-icons" aria-hidden="true"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+      
+      <!-- Modals -->
+
+      <!-- Contact Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="contactModalLabel">Contact Us</h4>
+            </div>
+            <div class="modal-body">
+                We can be reached at...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+      <!-- Profile Modal -->
+    <div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="profileModalLabel">Profile</h4>
+                </div>
+                <div class="modal-body">
+                Log In
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+      <!-- Search Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    Search
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+        
+    <!-- Header -->
+    <div class="container title-bar">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Services We Offer</h2>
+            </div>
+        </div>
+        <div class="row header-breadcrumb-container">
+            <div class="header-breadcrumb col-md-12">
+                <h6><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a> / Services We Offer</h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- Articles -->
+
+    <div class="container-fluid article-container">
+        
+        <div class="container">
+            <div id="numbered-services"></div>
+            <div class="row">
+                <article class="col-md-7 article">
+                    <h4>1st Article</h4>
+                    <h6>Rehabilitation</h6>
+                        <p class="col-md-8">Sirloin frankfurter beef landjaeger pork loin brisket filet mignon corned beef ball tip short loin t-bone ribeye. Bresaola alcatra turkey rump picanha filet mignon strip steak bacon tongue ball tip beef beef ribs. Ground round chuck kielbasa meatloaf ball tip.</p>
+                        <img src="images/health-care-graphic.png" alt="Pateint and doctor" class="col-md-4">
+                </article>
+                <div class="col-md-4 aside clearfix">Second Column</div>
+            </div>
+            <div class="row">
+                <article class="col-md-7 article">
+                    <h4>2nd Article</h4>
+                    <h6>Rehabilitation</h6>
+                    <p class="col-md-8">Orthomerus Lametasaurus Dicraeosaurus Diabloceratops Ajkaceratops Zigongosaurus Anodontosaurus Ningyuansaurus Xixianykus Jiutaisaurus Sarcolestes Avipes Stereocephalus Sphenospondylus Sterrholophus Aublysodon Batyrosaurus.</p>
+                    <img src="images/health-care-graphic.png" alt="Pateint and doctor" class="col-md-4">
+                </article>
+            </div>
+            <div class="row">
+                <article class="col-md-7 article">
+                    <h4>3rd Article</h4>
+                    <h6>Rehabilitation</h6>
+                    <p class="col-md-8">Orthomerus Lametasaurus Dicraeosaurus Diabloceratops Ajkaceratops Zigongosaurus Anodontosaurus Ningyuansaurus Xixianykus Jiutaisaurus Sarcolestes Avipes Stereocephalus Sphenospondylus Sterrholophus Aublysodon Batyrosaurus.</p>
+                    <img src="images/health-care-graphic.png" alt="Pateint and doctor" class="col-md-4">
+                </article>
+            </div>
+            <div class="row">
+                <article class="col-md-7 article">
+                    <h4>4th Article</h4>
+                    <h6>Rehabilitation</h6>
+                    <p class="col-md-8">Orthomerus Lametasaurus Dicraeosaurus Diabloceratops Ajkaceratops Zigongosaurus Anodontosaurus Ningyuansaurus Xixianykus Jiutaisaurus Sarcolestes Avipes Stereocephalus Sphenospondylus Sterrholophus Aublysodon Batyrosaurus.</p>
+                    <img src="images/health-care-graphic.png" alt="Pateint and doctor" class="col-md-4">
+                </article>
+            </div>
+            <div class="row">
+                <article class="col-md-7 article">
+                    <h4>5th Article</h4>
+                    <h6>Rehabilitation</h6>
+                    <p class="col-md-8">Orthomerus Lametasaurus Dicraeosaurus Diabloceratops Ajkaceratops Zigongosaurus Anodontosaurus Ningyuansaurus Xixianykus Jiutaisaurus Sarcolestes Avipes Stereocephalus Sphenospondylus Sterrholophus Aublysodon Batyrosaurus.</p>
+                    <img src="images/health-care-graphic.png" alt="Pateint and doctor" class="col-md-4">
+                </article>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="dist/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>

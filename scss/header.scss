@@ -1,0 +1,22 @@
+$night-color: #063D7A;
+$button-color: #1E71CD;
+
+
+.title-bar * {
+    font-weight: 200;
+
+}
+
+.header-breadcrumb {
+    border-top: solid $night-color 1px;
+    padding: 0em;
+    margin: 1em;
+
+    .glyphicon-home {
+        color: $button-color;
+    }
+}
+
+.header-breadcrumb-container {
+    width: 11em;
+}

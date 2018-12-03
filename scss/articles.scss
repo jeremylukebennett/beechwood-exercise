@@ -1,0 +1,39 @@
+$steam-color: #F5F7F9;
+$cadet-color: #465561;
+$button-color: #1E71CD;
+
+
+@mixin article-post {
+    margin: 1em;
+    box-shadow: 0 2px 4px 0 rgba(31, 37, 50, 0.2);
+    background-color: white;
+    border-radius: 3px;
+    color: $cadet-color;
+}
+
+.article-container {
+    background-color: $steam-color;
+    height: 190vh;
+}
+
+
+.article, .aside {
+    @include article-post;
+}
+
+.article-links-container {
+
+    margin: 1em;
+    
+    button {
+        margin: 1em;
+        font-weight: 400;
+        background: transparent;
+        border: none;
+        color: $button-color;
+    }
+
+    button:first-child {
+        color: black;
+    }
+}

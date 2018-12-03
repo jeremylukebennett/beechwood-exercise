@@ -1,0 +1,53 @@
+#main-navigation-bar {
+  border-bottom: solid #7F94A4 1px; }
+  #main-navigation-bar #inner-nav-container {
+    margin: 1em 0 1em 0; }
+
+#beechwood-logo-anchor {
+  margin-top: -0.4em; }
+  #beechwood-logo-anchor #beechwood-logo {
+    height: 2em; }
+
+.nav-icons {
+  color: #7F94A2;
+  font-size: 20px; }
+
+.article-container {
+  background-color: #F5F7F9;
+  height: 190vh; }
+
+.article, .aside {
+  margin: 1em;
+  box-shadow: 0 2px 4px 0 rgba(31, 37, 50, 0.2);
+  background-color: white;
+  border-radius: 3px;
+  color: #465561; }
+
+.article-links-container {
+  margin: 1em; }
+  .article-links-container button {
+    margin: 1em;
+    font-weight: 400;
+    background: transparent;
+    border: none;
+    color: #1E71CD; }
+  .article-links-container button:first-child {
+    color: black; }
+
+.title-bar * {
+  font-weight: 200; }
+
+.header-breadcrumb {
+  border-top: solid #063D7A 1px;
+  padding: 0em;
+  margin: 1em; }
+  .header-breadcrumb .glyphicon-home {
+    color: #1E71CD; }
+
+.header-breadcrumb-container {
+  width: 11em; }
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
